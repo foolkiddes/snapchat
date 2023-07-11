@@ -32,10 +32,10 @@ function getName(seed) {
         '崔', '郭', '顾', '孟', '刘', '黄', '熊', '穆', '萧', ''
     );
     let midNames = new Array(
-        '大', '二', '三', '四', '五', '六', '七', ''
+        '大', '二', '三', '四', '五', '六', '七','八','九','亖','拾', ''
     );
     let givenNames = new Array(
-        '爷', '郎', '娘', '哥', '姐', '娃', '妹', ''
+        '爷', '郎', '娘', '哥', '姐', '娃', '妹', '姊', '姑', ''
     );
     Math.seed = seed.hashCode();
     let familyName = familyNames[Math.seededRandom(100, 0)];
